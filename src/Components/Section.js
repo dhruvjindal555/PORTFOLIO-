@@ -4,7 +4,7 @@ function Section() {
     return (
         <>
             <div className=' absolute -z-10   '>
-                <img src='background.jpg' className="  opacity-10 w-screen h-screen " alt='' />
+                <img src='background.jpg' className="  opacity-10 w-screen md:h-screen " alt='' />
             </div>
             <div className='  '>
                 <div className='z-10  flex  h-screen '>
