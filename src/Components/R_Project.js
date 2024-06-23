@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion";
 
 function R_Project({ projectNo, heading, img, gitLink, deployedLink, desc }) {
     return (
@@ -17,18 +18,20 @@ function R_Project({ projectNo, heading, img, gitLink, deployedLink, desc }) {
                 <h1 className='text-2xl font-semibold'>{heading}</h1>
                 <p>{desc}</p>
                 <div className='flex gap-2 h-full my-2'>
-                    <a href={gitLink}
+                    <motion.a href={gitLink}
+                        whileHover={{ scale: 1.2 }}
                         className=' '>
                         <i class=" fa-brands fa-github fa-2xl"></i>
-                    </a>
+                    </motion.a>
                     <div className='flex items-center'>
 
-                        <a href={deployedLink}
+                        <motion.a href={deployedLink}
+                            whileHover={{ scale: 1.2 }}
                             className=' border-black border-2 rounded-md px-2 font-semibold'>Demo
                             <i
                                 class="fa-solid fa-arrow-right fa-rotate-by pl-1 fa-lg"
                                 style={{ "--fa-rotate-angle": "-45deg" }}></i>
-                        </a>
+                        </motion.a>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from "framer-motion";
 
 function WhatIKnow() {
     return (
@@ -9,7 +10,7 @@ function WhatIKnow() {
                     <h1 className='text-3xl font-semibold text-left  '>What I Know</h1>
                 </div>
                 <div className='grid grid-cols-4 gap-x-4 mx-2'>
-                    <div className='border border-1 col-span-1 rounded-lg p-6  m-2 shadow-md '>
+                    <motion.div whileHover={{ scale: 1.1 }} className='border border-1 col-span-1 rounded-lg p-6  m-2 shadow-md '>
                         <div>
                             <h1 className=' text-left font-medium '>Languages</h1>
                         </div>
@@ -27,8 +28,8 @@ function WhatIKnow() {
                             <div className='flex justify-center items-center py-1 px-2  bg-black text-white text-sm w-fit rounded-md'>
                                 <span>JAVA</span></div>
                         </div>
-                    </div>
-                    <div className='border border-1 col-span-1 rounded-lg p-6  m-2 shadow-md '>
+                    </motion.div>
+                    <motion.div whileHover={{ scale: 1.1 }} className='border border-1 col-span-1 rounded-lg p-6  m-2 shadow-md '>
                         <div>
                             <h1 className=' text-left font-medium '>Languages</h1>
                         </div>
@@ -46,7 +47,8 @@ function WhatIKnow() {
                             <div className='flex justify-center items-center py-1 px-2  bg-black text-white text-sm w-fit rounded-md'>
                                 <span>JAVA</span></div>
                         </div>
-                    </div>                    <div className='border border-1 col-span-1 rounded-lg p-6  m-2 shadow-md '>
+                    </motion.div>
+                    <motion.div whileHover={{ scale: 1.1 }} className='border border-1 col-span-1 rounded-lg p-6  m-2 shadow-md '>
                         <div>
                             <h1 className=' text-left font-medium '>Languages</h1>
                         </div>
@@ -64,7 +66,8 @@ function WhatIKnow() {
                             <div className='flex justify-center items-center py-1 px-2  bg-black text-white text-sm w-fit rounded-md'>
                                 <span>JAVA</span></div>
                         </div>
-                    </div>                    <div className='border border-1 col-span-1 rounded-lg p-6  m-2 shadow-md '>
+                    </motion.div>
+                    <motion.div whileHover={{ scale: 1.1 }} className='border border-1 col-span-1 rounded-lg p-6  m-2 shadow-md '>
                         <div>
                             <h1 className=' text-left font-medium '>Languages</h1>
                         </div>
@@ -82,7 +85,8 @@ function WhatIKnow() {
                             <div className='flex justify-center items-center py-1 px-2  bg-black text-white text-sm w-fit rounded-md'>
                                 <span>JAVA</span></div>
                         </div>
-                    </div>
+                    </motion.div>
+                    
                 </div>
 
 
