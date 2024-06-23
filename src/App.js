@@ -16,7 +16,7 @@ function App() {
     <>
       <Navbar portfolioRef={portfolioRef} aboutRef={aboutRef} contactRef={contactRef}/>
       <div className=""   >
-        <Section />
+        <Section  contactRef={contactRef}/>
       </div>
       <About aboutRef={aboutRef}/>
       <Portfolio  portfolioRef={portfolioRef} />

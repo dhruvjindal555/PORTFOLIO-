@@ -5,6 +5,8 @@ import emailjs from '@emailjs/browser';
 import { motion } from "framer-motion";
 
 export default function Contact({contactRef}) {
+    const scrollToContact = () => contactRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })   
+
     const [contactDetails, setContactDetails] = useState({
         first_name: "",
         last_name: "",
