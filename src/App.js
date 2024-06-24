@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Navbar portfolioRef={portfolioRef} aboutRef={aboutRef} contactRef={contactRef}/>
-      <div className=""   >
+      <div className="overflow-x-hidden"   >
         <Section  contactRef={contactRef}/>
       </div>
       <About aboutRef={aboutRef}/>
