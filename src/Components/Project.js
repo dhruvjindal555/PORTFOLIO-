@@ -10,7 +10,7 @@ function Project({ projectNo, heading, img, gitLink, deployedLink, desc }) {
                 </a>
 
             </div>
-            <div className=' w-fit md:w-2/5  lg:w-1/3 flex mx-10 my-4 flex-col gap-2'>
+            <div className=' w-fit md:w-2/5  lg:w-1/3 flex mx-5 sm:mx-10 my-4 flex-col gap-2'>
                 <div>
                     <h1 className='text-xl font-semibold'>Project {" " + projectNo}</h1>
                 </div>
