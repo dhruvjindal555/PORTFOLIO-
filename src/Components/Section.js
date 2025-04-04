@@ -21,10 +21,10 @@ function Section({contactRef}) {
                             <p className='text-wrap lg:w-1/2 mx-1 '>Dedicated and principled professional committed to execution excellence. Known for unwavering
                                 integrity and a meticulous approach to tasks.
                             </p>
-                            <motion.button onClick={scrollToContact} whileTap={{ scale: 0.8 }} whileHover={{ scale: 1.2 }} className='py-3 px-10 m-1 mt-4 md:mt-8 bg-black text-white w-fit rounded-3xl'>HIRE ME!</motion.button>
+                            <motion.button onClick={scrollToContact} whileTap={{ scale: 0.8 }} whileHover={{ scale: 1.2 }} className='py-3 px-10 m-1 mt-4 md:mt-8 bg-black text-white w-fit rounded-3xl'>Contact me!</motion.button>
                         </div>
                         <div className='min-w-96 scale-150 hidden xl:flex'>
-                            <img src='myPhoto.png' className='' alt='myPhoto' />
+                            {/* <img src='myPhoto.png' className='' alt='myPhoto' /> */}
 
                         </div>
                     </div>
